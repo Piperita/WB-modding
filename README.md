@@ -27,7 +27,7 @@ For easy access an add-on like <a href="https://addons.mozilla.org/de/firefox/ad
 Alternatively, copy <a href="https://github.com/Piperita/WB-modding/raw/master/scripts/wolfs-blog.js">this text</a> and paste it into your browser's console (Ctrl+I).
 
 ###Editor
-With the script-launchers installed click <a href="https://github.com/Piperita/WB-modding/raw/master/scripts/editor/editor.user.js">HERE</a>. For the console-version click <b><a href="https://github.com/Piperita/WB-modding/blob/master/scripts/editor/editor.js">here</a></b>.
+With the script-launchers installed click <b><a href="https://github.com/Piperita/WB-modding/raw/master/scripts/editor/editor.user.js">HERE</a></b>. For the console-version click <a href="https://github.com/Piperita/WB-modding/blob/master/scripts/editor/editor.js">here</a>.
 
 #Pictures
 <a href="http://sta.sh/22kn1z2qes0">See here!</a>
