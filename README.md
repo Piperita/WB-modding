@@ -9,6 +9,10 @@ Adds threading and a "full"-display to wolfs-blog.de
 -Creates a button to toggle the sidebar on and off<br>
 -Positioned at the Launchpad
 
+###Editor (seperate File)
+-Creates fast-access to HTML-formatting
+-Has a preview-area
+
 ###Random Tweaks
 -Deletes thumbs-up buttons and highlighting<br>
 -(Upon further testing also for "new" posts)
@@ -18,9 +22,12 @@ Adds threading and a "full"-display to wolfs-blog.de
 
 #How to get
 For easy access an add-on like <a href="https://addons.mozilla.org/de/firefox/addon/greasemonkey/">GreaseMonkey</a> (Firefox) or <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=de">TamperMonkey</a> (Chrome) is inevitable as cross-domain scripting is not possible from the console.
-<br>With such an add-on installed click <b><a href="https://github.com/Piperita/WB-modding/raw/master/scripts/wolfs-blog.user.js">HERE</a></b> for the <u>stable</u> version.
+<br>With such an add-on installed click <b><a href="https://github.com/Piperita/WB-modding/raw/master/scripts/wolfs-blog.user.js">HERE</a></b> for the current <u>stable</u> version. 
 
 Alternatively, copy <a href="https://github.com/Piperita/WB-modding/raw/master/scripts/wolfs-blog.js">this text</a> and paste it into your browser's console (Ctrl+I).
+
+###Editor
+With the script-launchers installed click <a href="https://github.com/Piperita/WB-modding/raw/master/scripts/editor/editor.user.js">HERE</a>. For the console-version click <b><a href="https://github.com/Piperita/WB-modding/blob/master/scripts/editor/editor.js">here</a></b>.
 
 #Pictures
 <a href="http://sta.sh/22kn1z2qes0">See here!</a>
