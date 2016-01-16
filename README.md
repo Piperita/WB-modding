@@ -9,7 +9,7 @@ Adds threading and a "full"-display to wolfs-blog.de
 -Creates a button to toggle the sidebar on and off<br>
 -Positioned at the Launchpad
 
-###Editor (seperate File)
+###Editor (separate File)
 -Creates fast-access to HTML-formatting
 -Has a preview-area
 
