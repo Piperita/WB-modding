@@ -32,32 +32,6 @@ function launchAll(){
 		}
 	}
 
-	//Highlighting highly rated posts
-	function deleteHighlight(){
-		$('div').filter(function() {
-		    var match = 'rgb(255, 240, 245)'; // match background-color: black
-		    return ( $(this).css('background-color') == match );
-		}).css('background-color', 'white');
-
-		$('div').filter(function() {
-		    var match = 'rgb(255, 255, 204)'; // match background-color: black                                            
-		    return ( $(this).css('background-color') == match );
-		}).css('background-color', 'white');
-
-		$('.ckrating_highly_rated').removeClass('ckrating_highly_rated')
-		$('.ckrating_hotly_debated').removeClass('ckrating_hotly_debated')
-	}
-
-	//Delete thumbs up
-	function deleteSM(){
-		//also launch on $('#submit')
-		ll=$('img')
-		ll.each( function(i,e) {
-		  if (this.title == 'Daumen hoch')
-		    this.parentElement.style.display = 'none'; 
-		});	
-	}
-
 	//Launchpad
 	function clickAll(){
 	  var v = $('#mb_top_btn')
@@ -181,8 +155,6 @@ function launchAll(){
 	var timer = setTimeout(function(){
 		clickAll();		//Launchpad
 		manageReplies()		//Reply-buttons
-		deleteSM();		//Thumbs
-		deleteHighlight();	//Background from highly rated posts
 		linkFunction();		//Functions to buttons
 	},250)
 }
