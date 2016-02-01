@@ -6,12 +6,12 @@
 // @grant       none
 // ==/UserScript==
 
-//------------------------------------------------------------------------
-//Loads replace-function (getSelection not working in FF for textAreas)---
-//------------------------------------------------------------------------
-document.head.appendChild(document.createElement("script")).src="https://cdn.rawgit.com/timdown/rangyinputs/master/rangyinputs-jquery-src.js"
-
 function editor(){
+	//------------------------------------------------------------------------
+	//Loads replace-function (getSelection not working in FF for textAreas)---
+	//------------------------------------------------------------------------
+	document.head.appendChild(document.createElement("script")).src="https://cdn.rawgit.com/timdown/rangyinputs/master/rangyinputs-jquery-src.js"
+
 	//-------------------------------------
 	//Area for button-functions------------
 	//-------------------------------------
@@ -81,9 +81,9 @@ function editor(){
 	    document.getElementById("linkWord").onclick = function(){linkWord(xyz)}
 	    //document.getElementById("hide").onclick = negTest
 	    $('#inOne')[0].style.display="inline"
-	},333)
+	},500)
 }
 
 var eee = setTimeout(function(){
 	editor();
-	},2000)
+	},2500)
